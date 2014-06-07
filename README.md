@@ -1,7 +1,7 @@
 mediawiki-downloader
 ====================
 
-Downloading wikitexts of all pages of MediaWiki site.
+Downloading all pages wikitexts of MediaWiki site.
 
 
 Usage
