@@ -13,10 +13,13 @@ require './lib/get_doc'
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- #
 def usage
   puts "Usage: ruby mediawiki-downloader.rb <URL of MediaWiki index.php>"
-  puts "Usage example: "
+  puts ""
+  puts "Example: "
   puts "  $ ruby mediawiki-downloader.rb \"http://example.dev/mediawiki/index.php\""
-  puts "Usage example with Basic Authentication:"
+  puts ""
+  puts "Example with Basic Authentication:"
   puts "  $ BASIC_USER=john BASIC_PASS=xxx ruby mediawiki-downloader.rb \"http://example.dev/mediawiki/index.php\""
+  puts ""
 end
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- #
