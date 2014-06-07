@@ -12,7 +12,7 @@ Usage
     $ ruby mediawiki-downloader.rb "http://example.dev/mediawiki/index.php"
 
 ### Example with Basic Authentication
-    $ BASIC_USER=aaaa BASIC_PASS=xxxx ruby mediawiki-downloader.rb "http://example.dev/mediawiki/index.php"
+    $ BASIC_USER=aaa BASIC_PASS=xxx ruby mediawiki-downloader.rb "http://example.dev/mediawiki/index.php"
 
 
 Requirements
