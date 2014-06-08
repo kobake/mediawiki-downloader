@@ -1,7 +1,7 @@
 mediawiki-downloader
 ====================
 
-Downloading wikitexts of all pages of MediaWiki site.
+Downloading all pages wikitexts of MediaWiki site.
 
 
 Usage
@@ -9,10 +9,10 @@ Usage
     $ ruby mediawiki-downloader.rb <URL of MediaWiki index.php>
 
 ### Example
-    $ ruby mediawiki-downloader.rb "http://example.dev/mediawiki/index.php"
+    $ ruby mediawiki-downloader.rb "http://example.dev/wiki/index.php"
 
 ### Example with Basic Authentication
-    $ BASIC_USER=aaaa BASIC_PASS=xxxx ruby mediawiki-downloader.rb "http://example.dev/mediawiki/index.php"
+    $ BASIC_USER=aaa BASIC_PASS=xxx ruby mediawiki-downloader.rb "http://example.dev/wiki/index.php"
 
 
 Requirements
